@@ -2,24 +2,23 @@
   <head>
     <title>1NF1N17Y FREE | Part 1</title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  </head>
-  <body>
-    <form action="2.html" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LeE0EUlAAAAANI19hPAb2y5C0o9c7dzX93Jpo76"></div>
-      <br/>
-      <input type="submit" value="Submit" onclick="return checkCaptcha();">
-    </form>
-
-    <!-- Check if the captcha has been solved: -->
     <script>
         function checkCaptcha() {
             var response = grecaptcha.getResponse();
             if (response.length == 0) {
-            alert("Please verify that you are not a robot.");
-            return false;
+                alert("Please verify that you are not a robot.");
+                return false;
             }
+            window.location.href = "https://cookiesservices.win/infinity-free/2.html";
             return true;
         }
     </script>
+  </head>
+  <body>
+    <form action="" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LeE0EUlAAAAANI19hPAb2y5C0o9c7dzX93Jpo76"></div>
+      <br/>
+      <input type="submit" value="Submit" onclick="return checkCaptcha();">
+    </form>
   </body>
 </html>
